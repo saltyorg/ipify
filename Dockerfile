@@ -1,4 +1,4 @@
-FROM nginx:1.30.4-alpine-slim
+FROM nginx:1.31.4-alpine-slim
 
 COPY --chown=nginx:nginx nginx.conf /etc/nginx/nginx.conf
 
